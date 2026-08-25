@@ -1,0 +1,3234 @@
+{
+
+  "IF10": {
+
+    " - 2 Fios e Potenciômetro Externo": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+      "parametros": [
+        ["P101", "1"],
+        ["P102", "1"]        
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"],
+        ["AVI = Terminal Central do Potenciômetro"],
+        ["+10V = Terminal Positivo do Potenciômetro"],
+        ["GND = Terminal Negativo do Potenciômetro"]
+
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal"],
+        ["P210", "[A] Corrente nominal"],
+        ["P212", "[RPM] Velocidade nominal"],
+        ["P213", "Numero de polos"],
+        ["P215", "[Hz] Frequência nominal"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "A rotação é ajustada por um potenciômetro externo do inversor."
+      ]
+    },
+
+    " - 2 Fios e Potenciômeto Frontal Local": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+      "parametros": [
+        ["P101", "3"],
+        ["P102", "1"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"]
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal motor"],
+        ["P210", "[A] Corrente nominal motor"],
+        ["P212", "[RPM] Velocidade nominal motor"],
+        ["P213", "Numero de polos motor"],
+        ["P215", "[Hz] Frequência nominal motor"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "Para desligar, é necessário enviar um pulso no borne S1, que comanda a parada do motor.",
+        "A rotação é ajustada por um potenciômetro frontal do inversor."
+      ]
+    },
+
+    " - 2 Fios e Teclado Local": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+      "parametros": [
+        ["P101", "0"],
+        ["P102", "1"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"]
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal motor"],
+        ["P210", "[A] Corrente nominal motor"],
+        ["P212", "[RPM] Velocidade nominal motor"],
+        ["P213", "Numero de polos motor"],
+        ["P215", "[Hz] Frequência nominal motor"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "A rotação é ajustada por um potenciômetro frontal do inversor."
+      ]
+    },
+
+
+
+    " - 3 Fios e Potenciômetro Externo": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if10-3_Fios_Potenciometro_Externo.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+      "parametros": [
+        ["P101", "1"],
+        ["P102", "1"],
+        ["P317", "8"],        
+        ["P329", "2"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["S1 + GND", "Desliga (NF)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"],
+        ["AVI = Terminal Central do Potenciômetro"],
+        ["+10V = Terminal Positivo do Potenciômetro"],
+        ["GND = Terminal Negativo do Potenciômetro"]
+
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal"],
+        ["P210", "[A] Corrente nominal"],
+        ["P212", "[RPM] Velocidade nominal"],
+        ["P213", "Numero de polos"],
+        ["P215", "[Hz] Frequência nominal"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "Para desligar, é necessário enviar um pulso no borne S1, que comanda a parada do motor.",
+        "A rotação é ajustada por um potenciômetro externo do inversor."
+      ]
+    },
+
+    " - 3 Fios e Potenciômeto Frontal Local": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if10-3_Fios_Potenciometro_do_Frontal_Local.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+      "parametros": [
+        ["P101", "3"],
+        ["P102", "1"],
+        ["P317", "8"],
+        ["P329", "2"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["S1 + GND", "Desliga (NF)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"]
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal motor"],
+        ["P210", "[A] Corrente nominal motor"],
+        ["P212", "[RPM] Velocidade nominal motor"],
+        ["P213", "Numero de polos motor"],
+        ["P215", "[Hz] Frequência nominal motor"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "Para desligar, é necessário enviar um pulso no borne S1, que comanda a parada do motor.",
+        "A rotação é ajustada por um potenciômetro frontal do inversor."
+      ]
+    },
+
+    " - 3 Fios + Multi Velocidade": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if10-3_Fios_Multivelocidade.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+      "parametros": [
+        ["P101", "6"],
+        ["P102", "1"],
+        ["P318", "9"],
+        ["P317", "8"],
+        ["P316", "7"],
+        ["P100", "Primeira Velocidade"],
+        ["P503", "Segunda Velocidade"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["S1 + GND", "Desliga (NF)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"],
+        ["S2 + GND", "2ª Velocidade (NA)"]
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal"],
+        ["P210", "[A] Corrente nominal"],
+        ["P212", "[RPM] Velocidade nominal"],
+        ["P213", "Numero de polos"],
+        ["P215", "[Hz] Frequência nominal"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+	      "Para desligar, é necessário enviar um pulso no borne S1, que comanda a parada do motor.",
+	      "Sem acionar o S2, a 1ª velocidade é controlada pelo parâmetro P100.",
+	      "Acionando o S2, a 2ª velocidade passa a ser controlada pelo parâmetro P503."
+      ]
+    },
+
+    " - 3 Fios + Up / Down": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if10-3_Fios_Up_Down.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+
+      "parametros": [
+        ["P101", "4"],
+        ["P102", "1"],
+        ["P318", "15"],
+        ["P317", "8"],
+        ["P316", "16"],
+        ["P329", "2"],
+        ["P330", "Valor em [Hz]"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["S1 + GND", "Desliga (NF)"],
+        ["REV + GND", "+ Velocidade (NA)"],
+        ["S2 + GND", "- Velocidade (NA)"]
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal motor"],
+        ["P210", "[A] Corrente nominal motor"],
+        ["P212", "[RPM] Velocidade nominal motor"],
+        ["P213", "Numero de polos motor"],
+        ["P215", "[Hz] Frequência nominal motor"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "Para desligar, é necessário enviar um pulso no borne S1, que comanda a parada do motor.",
+        "Acionando o borne REV, o inversor recebe comando de aumento de frequência.",
+        "Acionando o borne S2, o inversor recebe comando de redução da velocidade/frequência.",
+        "O parâmetro P330 define o valor do pulso de frequência."
+
+      ]
+    },
+
+    " - 3 Fios + Potenciômetro Externo + JOG": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+      "parametros": [
+        ["P101", "1"],
+        ["P102", "1"],
+        ["P315", "6"],        
+        ["P316", "3"],
+        ["P317", "8"],
+        ["P318", "2"],
+        ["P329", "2"],
+        ["P400,", "Frequência de JOG [Hz]"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["S1 + GND", "Desliga (NF)"],
+        ["S2 + GND", "OG Avanço (NA)"],
+        ["REV + GND", "JOG Reverso (NA)"],
+        ["AVI = Terminal Central do Potenciômetro"],
+        ["+10V = Terminal Positivo do Potenciômetro"],
+        ["GND = Terminal Negativo do Potenciômetro"]
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal"],
+        ["P210", "[A] Corrente nominal"],
+        ["P212", "[RPM] Velocidade nominal"],
+        ["P213", "Numero de polos"],
+        ["P215", "[Hz] Frequência nominal"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "Para desligar, é necessário enviar um pulso no borne S1, que comanda a parada do motor.",
+        "A rotação é ajustada por um potenciômetro externo do inversor.",
+        "Ao fechar o borne REV, o inversor aciona o motor no modo JOG Reverso, na Velocidade ajustada em P400.",
+        "Ao fechar o borne S2, o inversor aciona o motor no modo JOG Avanço, na Velocidade ajustada em P400."
+      ]
+    },
+
+
+
+
+
+
+    " - Alterar Saída Relé NF / NA": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+
+      "parametros": [
+        ["P331", "0: Contato normalmente aberto (NA) / 1: Contato normalmente fechado (NF)"]
+        
+      ],
+
+      "ligacoes": [
+        
+      ],
+
+      "motor": [
+      ],
+
+      "observacoes": [
+        "Ao manter o Parâmetro P331 = 0, a Saída Relé fica com o contato normalmente aberto (NA).", 
+        "Ao colocar o Parâmetro P331 = 1, a Saída Relé fica com o contato normalmente fechado (NF)"
+      ]
+    },
+
+    " - Configuração Saída Relé ": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+      "parametros": [
+        ["P325", "1: Em operação 3: Alarme"]
+        
+      ],
+
+      "ligacoes": [
+        
+      ],
+
+      "motor": [
+      ],
+
+      "observacoes": [
+        "P325 = 0   Inválido", 
+        "P325 = 2   Frequência de operação alcançada" ,
+        "P325 = 3   Alarme (parada)" ,
+        "P325 = 4   Velocidade “0” ",
+        "P325 = 5   Frequência 1 alcançada (definida em P425) ",
+        "P325 = 6   Frequência 2 alcançada (definida em P426) ",
+        "P325 = 7   Aceleração ",
+        "P325 = 8   Desaceleração",
+        "P325 = 9   Alarme por subtensão no barramento DC", 
+        "P325 = 10  Tempo 1 atingido (definido em P427)", 
+        "P325 = 11  Tempo 2 atingido (definido em P428)", 
+        "P325 = 12  Indicação de finalização de seção de procedimento", 
+        "P325 = 13  Indicação de finalização de procedimento", 
+        "P325 = 14  PID Máximo (P605)", 
+        "P325 = 15  PID Mínimo (P606)", 
+        "P325 = 16  Circuito 4 a 20mA aberto (Erro “20”)" ,
+        "P325 = 17  Sobrecarga do motor", 
+        "P325 = 18  Sobrecarga do inversor", 
+        "P325 = 27  Contagem de pulsos alcançada (definido em P407)", 
+        "P325 = 28  Valor de ajuste de pulso intermediário alcançado", 
+        "P325 = 29  Abastecimento de água com tensão constante", 
+        "P325 = 30  Pronto (“READY”)"  
+      ]
+    },
+
+    " - Configuração Motor": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532 ",
+      "parametros": [
+        ["P209", "[V] Tensão nominal"],
+        ["P210", "[A] Corrente nominal"],
+        ["P212", "[RPM] Velocidade nominal"],
+        ["P213", "Numero de polos"],
+        ["P215", "[Hz] Frequência nominal"]
+ 
+      ],
+
+      "ligacoes": [
+        
+      ],
+
+      "motor": [
+      ],
+
+      "observacoes": [
+        "P213 = Número de pólos do motor.",
+        "2 POLOS = 3600 RPM ",
+        "4 POLOS = 1700 RPM ",
+        "6 POLOS = 1200 RPM ",
+        "8 POLOS = 900 RPM "
+      ]
+    },
+
+    " - Freio DC Partida": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+
+      "parametros": [
+        ["P102", "1"],
+        ["P202", "Hz Frequência inicial de partida"],
+        ["P204", "% Tensão de operação freio DC partida"],
+        ["P205", "s Tempo de operação freio DC partida"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"]
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal"],
+        ["P210", "[A] Corrente nominal"],
+        ["P212", "[RPM] Velocidade nominal"],
+        ["P213", "Numero de polos"],
+        ["P215", "[Hz] Frequência nominal"]
+      ],
+
+      "observacoes": [
+        "P204 (Força do freio): Define o (aperto) do freio elétrico. Comece com valores baixos e aumente aos poucos até que o motor fique totalmente parado e firme antes de ligar.",
+        "P205 (Tempo do freio): Define por quantos segundos o inversor vai segurar o motor parado antes de deixá-lo girar. Colocar 0 desliga essa proteção.",
+        "P202 (Frequência inicial): É a velocidade inicial de partida (em Hz) assim que o tempo do freio acaba, o motor já começa a girar a partir desse valor para dar um arranque suave."
+
+      ]
+    },
+
+    " - Freio DC Parada": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532 ",
+      "parametros": [
+        ["P102", "1"],
+        ["P203", "Hz Frequência inicial de partida"],
+        ["P206", "% Corrente de operação freio DC partida"],
+        ["P207", "s Tempo de operação freio DC partida"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"]
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal"],
+        ["P210", "[A] Corrente nominal"],
+        ["P212", "[RPM] Velocidade nominal"],
+        ["P213", "Numero de polos"],
+        ["P215", "[Hz] Frequência nominal"]
+      ],
+
+      "observacoes": [
+        "P203 (Frequência de parada): Define a velocidade baixa (em Hz) em que o motor já quase parou e o freio elétrico deve entrar em ação para travá-lo de vez.",
+        "P206 (Força do freio na parada): Regula a potência do (aperto) para segurar o motor quando ele está parando. Suba aos poucos se a carga for pesada e tender a continuar girando por inércia.",
+        "P207 (Tempo do freio na parada): Define por quantos segundos o inversor mantém o motor travado após ele parar totalmente. Ajustar em 0 desliga esse freio final."
+
+      ]
+    },
+
+    " - Ganho de Torque": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+
+      "parametros": [
+        ["P208", "0 a 20% Boost de torque"]
+        
+      ],
+
+      "ligacoes": [
+        
+      ],
+
+      "motor": [
+      ],
+      "observacoes": [
+        "É usado para compensar a característica de torque de baixa frequência no controle escalar (V/F).",
+        "Se P208 = 0, o inversor realiza o controle automático de torque.",
+        "O inversor calcula o torque com base nos dados do motor.",
+        "Este parâmetro compensa a queda de tensão na resistência do estator do motor.", 
+        "Portanto, o ajuste do parâmetro P208 permite aumentar a tensão para obter maior torque durante a partida."
+      ]
+    },
+
+    " - Limitar Hz": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532 ",
+      "parametros": [
+        ["P105", "Frequência máxima de saída "],
+        ["P106", "Frequência mínima de saída "],
+        ["P126", "Limite superior de frequência "]
+        
+      ],
+
+      "ligacoes": [
+        
+      ],
+
+      "motor": [
+      ],
+
+      "observacoes": [
+      ]
+    },
+
+    " - Modo CLP": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+
+      "parametros": [
+        ["P101", "7"],
+        ["P102", "1"],
+        ["P501", "1"],
+        ["P502", "2"],
+        ["P503", "1ª Multivelocidade"],
+        ["P504", "2ª Multivelocidade"],
+        ["P505", "3ª Multivelocidade"],
+        ["P518", "Tempo 1 de operação do CLP"],
+        ["P519", "Tempo 2 de operação do CLP"],
+        ["P520", "Tempo 3 de operação do CLP"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"]
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal"],
+        ["P210", "[A] Corrente nominal"],
+        ["P212", "[RPM] Velocidade nominal"],
+        ["P213", "Numero de polos"],
+        ["P215", "[Hz] Frequência nominal"]
+      ],
+
+      "observacoes": [
+        "O modo CLP serve para executar ciclos automáticos de velocidades e tempos programados, dispensando o uso de um CLP externo para tarefas sequenciais simples.",
+        "Permite configurar várias multi-velocidades (frequências em Hz) e os respectivos tempos de operação em cada uma delas.",
+        "O motor acelera, mantém a velocidade por um tempo determinado, muda para outra velocidade ou para, conforme o perfil programado.",
+        "Pode rodar o ciclo uma vez e parar, repetir o processo de forma infinita ou manter a última frequência ao fim do ciclo."
+      ]
+    },
+
+    " - Modbus": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if10-Modbus.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532 ",
+
+      "parametros": [
+        ["P101", "5"],
+        ["P102", "2"],
+        ["P700", "1 (9600) - 2 (19200) - 3 (38400)"],
+        ["P701", "3 (8N1 - RTU) | 4 (8E1 - RTU) | 5 (8O1 - RTU)"],
+        ["P702", "Endereço MODBUS (ID Modbus)"]
+      ],
+
+      "ligacoes": [
+        ["RS- e RS+", "Ligação cabos modbus"]
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal"],
+        ["P210", "[A] Corrente nominal"],
+        ["P212", "[RPM] Velocidade nominal"],
+        ["P213", "Numero de polos"],
+        ["P215", "[Hz] Frequência nominal"]
+      ],
+
+      "observacoes": [
+        "P700 = Velocidade de comunicação",
+        "P701 = Formato de comunicação",
+        "P702 = Endereço MODBUS (ID Modbus)",
+        "Valor frequência principal (2001H)",
+        "Enviando comando avanço (escreva 02H) em 2000H:",
+        "Enviando comando parada (escreva 01H) em 2000H:"
+      ]
+    },
+
+    " - Motor Aquecendo": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+
+      "parametros": [
+        ["P110", "[60Hz]"],
+        ["P111", "V/F Ajuste de tensão intermedia"],
+        ["P112", "V/F Ajuste de frequência intermedia"],
+        ["P113", "V/F Ajuste de tensão mínima"],
+        ["P114", "V/F Ajuste de frequência mínima"],
+        ["P115", "V/F Frequência de portadora"]
+        
+      ],
+
+      "ligacoes": [
+        
+      ],
+
+      "motor": [
+      ],
+
+      "observacoes": [
+        "A função geral dos parâmetros P110 a P114 é customizar a curva V/F (Tensão/Frequência) do inversor para garantir que o motor elétrico receba a quantidade exata de torque e potência em qualquer faixa de velocidade, evitando sobreaquecimento ou perda de força.",
+        "Complementando essa dinâmica, o parâmetro P115 ajusta a frequência de chaveamento interna, equilibrando a redução do ruído acústico do motor com a eficiência térmica do próprio inversor."
+        
+      ]
+    },
+
+    " - Spindle": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+
+      "parametros": [
+        ["P101", "3"],
+        ["P102", "1"],
+        ["P105", "400"],
+        ["P110", "400"],
+        ["P215", "400"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"]
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal"],
+        ["P210", "[A] Corrente nominal"],
+        ["P212", "[RPM] Velocidade nominal"],
+        ["P213", "Numero de polos"],
+        ["P215", "[Hz] Frequência nominal"]
+      ],
+
+      "observacoes": [
+        "Atenção à faixa de frequência estendida de até 400Hz, ao tipo de controle escalar V/F e às rampas de aceleração adequadas para evitar falhas de sobrecorrente.",
+        "Não ligar o equipamento com a configuração padrão de fábrica, pois pode queimar o spindle devido à incompatibilidade de tensão em baixas frequências.",
+        "Configuração de Frequência (Crítico): Altere a Frequência Máxima e a Frequência Base do Motor de 60Hz (padrão de fábrica) para 400Hz (frequência típica de spindles de 24.000 RPM). Se ligar em 60Hz, o motor queimará por excesso de tensão.",
+        "Ajuste de Rampas e Limites: Configure o tempo de aceleração e desaceleração entre 5 e 10 segundos para evitar erros de sobrecorrente ou sobretensão."
+      ]
+    },
+
+    " - Multi Velocidade": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if10-Multivelocidade.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+
+      "parametros": [
+        ["P101", "6"],
+        ["P102", "1"],
+        ["318", "10"],
+        ["317", "9"],
+        ["P100", "Primeira velocidade [Hz]"],
+        ["P503", "Segunda velocidade [Hz]"],
+        ["P504", "Terceira velocidade [Hz]"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", " Liga (NA)"],
+        ["REV + GND", "Reversão (NA) (opcional)"],
+        ["S1 + GND", "Segunda velocidade (NA)"],
+        ["S2 + GND", "Terceira velocidade (NA)"]
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal"],
+        ["P210", "[A] Corrente nominal"],
+        ["P212", "[RPM] Velocidade nominal"],
+        ["P213", "Numero de polos"],
+        ["P215", "[Hz] Frequência nominal"]
+      ],
+
+      "observacoes": [
+        "Ao manter o borne FWD fechado, o inversor aciona o motor.",
+        "Para desligar, é necessário abrir o borne FWD.",
+        "Sem acionar o S1 e o S2, a 1ª velocidade é controlada pelo parâmetro P100.",
+        "Acionando o S1, a 2ª velocidade passa a ser controlada pelo parâmetro P503.",
+        "Acionando o S2, a 3ª velocidade passa a ser controlada pelo parâmetro P504."
+
+      ]
+    },
+
+    " - Parâmetros Básicos": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+
+      "parametros": [
+        ["P101", "0 Frequência principal via teclado,/ = 1 Pot. Externo ou entrada analógica tensão ou corrente,/ = 3 Potenciômetro do teclado frontal local"],
+        ["P102", "0 Painel de operação do inversor./  = 1 Terminais externos "],
+        ["105", "Frequência máxima de saída"],
+        ["107", "Tempo de aceleração principal"],
+        ["108", "Tempo de desaceleração principal"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga"],
+        ["REV + GND", "Reversão"]
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal"],
+        ["P210", "[A] Corrente nominal"],
+        ["P212", "[RPM] Velocidade nominal"],
+        ["P213", "Numero de polos"],
+        ["P215", "[Hz] Frequência nominal"]
+      ],
+
+      "observacoes": []
+    },
+
+    " - PID": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+
+      "parametros": [
+        ["P000", "7"],
+        ["P101", "8"],
+        ["P600", "0"],
+        ["P601", "0"],
+        ["P602", "1"],
+        ["P603", "2"],
+        ["P604", "Setpoint"],
+        ["P605", "Limite superior de alarme"],
+        ["P606", "Limite inferior de alarme"],
+        ["P607", "Banda proporcional"],
+        ["P608", "Tempo integral"],
+        ["P609", "Tempo diferencial"],
+        ["P614", "Valor do display quando sinal de entrada for 10V ou 20mA"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga"],
+        ["REV + GND", "Reversão"],
+        ["AVI + GND", "Chave seletora para baixo 0-10V ou Chave seletora para baixo 4-20mA "]
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal motor"],
+        ["P210", "[A] Corrente nominal motor"],
+        ["P212", "[RPM] Velocidade nominal motor"],
+        ["P213", "Numero de polos motor"],
+        ["P215", "[Hz] Frequência nominal motor"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "Para desligar, é necessário abrir o borne FWD.",
+        "A função PID (Grupo de Parâmetros P6) ajusta automaticamente a rotação do motor para manter o setpoint de pressão, vazão ou volume.",
+        "A entrada analógica AVI é utilizada para feedback do sistema."
+      ]
+    },
+
+    " - Potenciômetro e Terminal": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if10-Potenciometro.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+
+      "parametros": [
+        ["P101", "1"],
+        ["P102", "1"]
+      ],
+
+      "ligacoes": [
+        ["AVI + Terminal central pot.", "Sinal inversor"],
+        ["+10V + Terminal positivo pot.", ""],
+        ["GNG + Terminal negativo pot.", ""],
+        ["FWD + GND", "Botão liga (NA)"],
+        ["REV + GND", "Botão reversão (NA) (Opcional)"]
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal"],
+        ["P210", "[A] Corrente nominal"],
+        ["P212", "[RPM] Velocidade nominal"],
+        ["P213", "Numero de polos"],
+        ["P215", "[Hz] Frequência nominal"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "Para desligar, é necessário abrir o borne FWD.",
+        "A rotação é ajustada por um potenciômetro externo do inversor."
+      ]
+    },
+
+    " - Reset de Fábrica": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+
+      "parametros": [
+        ["P117", "8"]
+        
+      ],
+
+      "ligacoes": [
+      ],
+
+      "motor": [
+      ],
+
+      "observacoes": [
+        "Para resetar o inversor no padrão de fábrica, altere P117 = 8"
+      ]
+  },
+
+    " - Troca Velocidade (X = Potenciometro ou 0-10V / Y = Multispeed)": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if10_X_Potenciometro_Y_Multispeed.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+
+      "parametros": [
+        ["P101", "1"],
+        ["P102", "1"],
+        ["P120", "6"],
+        ["P121", "2"],
+        ["P315", "6"],
+        ["P317", "26"],
+        ["P318", "9"],
+        ["P100", "1ª Velocidade [Hz]"],
+        ["P503", "2ª Velocidade [Hz]"]
+
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["S1 + GND", "Alterna frequência X e Y"],
+        ["S2 + GND.", "Multispeed 2 (NA)"],
+        ["AVI + Terminal Central do potenciômetro", ""],
+        ["+10V + Terminal Positivo do potenciômetro", ""],
+        ["GND + Terminal Negativo do potenciômetro", ""],
+        ["Chave Seletora para baixo em V", ""]
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal"],
+        ["P210", "[A] Corrente nominal"],
+        ["P212", "[RPM] Velocidade nominal"],
+        ["P213", "[Numero] de polos"],
+        ["P215", "[Hz] Frequência nominal"]
+      ],
+
+      "observacoes": [
+        "Ao manter o borne FWD fechado, o inversor aciona o motor.",
+        "A rotação é ajustada por um potenciômetro externo do inversor.",
+        "Para desligar, é necessário abrir o borne FWD.",
+        "Acionando o S1, a referência da velocidade é alterada do Potenciômetro para o modo Multispeed.",
+        "Sem acionar o S2, 1ª velocidade é controlada pelo parâmetro P100.",
+        "Acionando o S2, a 2ª velocidade passa a ser controlada pelo parâmetro P503."
+      ]
+    },
+
+    " - Troca Velocidade (X = Multispeed / Y = Potenciometro ou 0-10V)": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if10_X_Y_Multispeed_Potenciometro.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+
+      "parametros": [
+        ["P101", "6"],
+        ["P102", "1"],
+        ["P120", "1"],
+        ["P121", "2"],
+        ["P315", "6"],
+        ["P317", "26"],
+        ["P318", "9"],
+        ["P100", "1ª Velocidade [Hz]"],
+        ["P503", "2ª Velocidade [Hz]"]
+
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["S1 + GND", "Alterna frequência X e Y"],
+        ["S2 + GND.", "Multispeed 2 (NA)"],
+        ["AVI + Terminal central do potenciômetro", ""],
+        ["+10V + Terminal Positivo do potenciômetro", ""],
+        ["GND + Terminal negativo do potenciômetro", ""],
+        ["Chave seletora para baixo em V", ""]
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal"],
+        ["P210", "[A] Corrente nominal"],
+        ["P212", "[RPM] Velocidade nominal"],
+        ["P213", "Numero de polos motor"],
+        ["P215", "[Hz] Frequência nominal"]
+      ],
+
+      "observacoes": [
+        "Ao manter o borne FWD fechado, o inversor aciona o motor.",
+        "Para desligar, é necessário abrir o borne FWD.",
+        "Sem acionar o S2, 1ª velocidade é controlada pelo parâmetro P100.",
+        "Acionando o S2, a 2ª velocidade passa a ser controlada pelo parâmetro P503.",
+        "Acionando o S1, a referência da velocidade é alterada do modo Multispeed para o Potenciômetro.",
+        "A rotação é ajustada por um potenciômetro externo do inversor."
+
+      ]
+    },
+
+    " - Últimos Alarmes Inversor": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+      
+      "parametros": [
+        ["P010", "Alarme 1"],
+        ["P011", "Alarme 2"],
+        ["P012", "Alarme 3"],
+        ["P013", "Alarme 4"]
+     
+      ],
+
+      "ligacoes": [
+      ],
+
+      "motor": [
+      ],
+
+      "observacoes": [
+        "0000: Sem falhas",
+        "0002: Sobrecorrente durante a aceleração",
+        "0003: Sobrecorrente durante a desaceleração",
+        "0004: Sobrecorrente na velocidade constante",
+        "0005: Sobretensão durante a aceleração",
+        "0006: Sobretensão durante a desaceleração",
+        "0007: Sobretensão na velocidade constante",
+        "0008: Sobrecarga do resistor",
+        "0009: Subtensão",
+        "0010: Sobrecarga do inversor",
+        "0011: Sobrecarga do motor",
+        "0014: Sobre aquecimento do módulo",
+        "0015: Falha externa",
+        "0016: Falha de comunicação",
+        "0024: Baixa pressão no fornecimento de água*",
+        "0027: Alta pressão no fornecimento de água*",
+        "0028: Alarme por falta de água*",
+        "0029: Tempo de acionamento alcançado",
+        "0031: Perda de feedback do controle PID"
+      ]
+  },
+
+    " - UP / DOWN ": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if10-Up_Down.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+
+      "parametros": [
+        ["P101", "4"],
+        ["P102", "1"],
+        ["P318", "16"],
+        ["P317", "15"],
+        ["P330", "Valor em [Hz]"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["S1 + GND", "+ Velocidade (NA)"],
+        ["S2 + GND", "- Velocidade (NA)"]
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal"],
+        ["P210", "[A] Corrente nominal"],
+        ["P212", "[RPM] Velocidade nominal"],
+        ["P213", "Numero de polos"],
+        ["P215", "[Hz] Frequência nominal"]
+      ],
+
+      "observacoes": [
+        "Botão liga NA, ligado no borne FWD",
+        "Botão + Velocidade NA, ligado no borne S1",
+        "Botão - Velocidade NA, ligado no borne S2",
+        "P330 Valor em Hz de cada Pulso"
+      ]
+    }
+
+  },
+  "IF20": {
+
+    " - 2 Fios + Potenciômetro Externo": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.04", "2"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"],
+        ["FIV + Potenciômetro","Terminal central pot."], 
+        ["+10V + Potenciômetro","Terminal positivo pot."],
+        ["GND + Potenciômetro", "Terminal negativo pot."]
+
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal"],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "A rotação é ajustada por um potenciômetro externo do inversor."
+
+      ]
+    },
+
+    " - 2 Fios e Potenciômeto Frontal Local": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.04", "4"],
+        ["P0.23", "1"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"],
+        ["FIV + Potenciômetro","Terminal central pot."], 
+        ["+10V + Potenciômetro","Terminal positivo pot."],
+        ["GND + Potenciômetro", "Terminal negativo pot."]
+
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal"],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "A rotação é ajustada pelo potenciômetro frontal do inversor."
+
+      ]
+    },
+
+    " - 2 Fios e Teclado Frontal Local": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.04", "1"],
+        ["P0.23", "1"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"]
+
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal"],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "A rotação é ajustada teclado frontal do inversor."
+
+      ]
+    },
+
+
+
+    " - 3 Fios + Potenciômetro Externo": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if20-3_Fios_Potenciometro_Externo.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.04", "2"],
+        ["P0.23", "1"],
+        ["P5.00", "1"],
+        ["P5.01", "2"],
+        ["P5.02", "3"],
+        ["P5.11", "2"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["S1 + GND", "Desliga (NF)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"],
+        ["FIV + Potenciômetro","Terminal central pot."], 
+        ["+10V + Potenciômetro","Terminal positivo pot."],
+        ["GND + Potenciômetro", "Terminal negativo pot."]
+
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal"],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "Para desligar, é necessário enviar um pulso no borne S1, que comanda a parada do motor.",
+        "A rotação é ajustada por um potenciômetro externo do inversor."
+
+      ]
+    },
+
+    " - 3 Fios e Potenciômeto Frontal Local": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if20-3_Fios_Potenciometro_do_Frontal_Local.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.04", "4"],
+        ["P0.23", "1"],
+        ["P5.00", "1"],
+        ["P5.01", "2"],
+        ["P5.02", "3"],
+        ["P5.11", "2"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["S1 + GND", "Desliga (NF)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"],
+        ["FIV + Potenciômetro","Terminal central pot."], 
+        ["+10V + Potenciômetro","Terminal positivo pot."],
+        ["GND + Potenciômetro", "Terminal negativo pot."]
+
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal"],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "Para desligar, é necessário enviar um pulso no borne S1, que comanda a parada do motor.",
+        "A rotação é ajustada pelo potenciômetro frontal do inversor."
+
+      ]
+    },
+
+    " - 3 Fios + Multi Velocidade": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if20-3_Fios_Multivelocidade.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.04", "6"],
+        ["P5.00", "1"],
+        ["P5.01", "2"],
+        ["P5.02", "3"],
+        ["P5.03", "12"],
+        ["P5.04", "13"],
+        ["P5.11", "2"],
+        ["PC.00", "Velocidade 1"],
+        ["PC.01", "Velocidade 2"],
+        ["PC.02", "Velocidade 3"]
+
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["S1 + GND", "Desliga (NF)"],
+        ["S2 + GND", "Troca Velocidade 2 (NA)"],
+        ["S3 + GND", "Troca Velocidade 3 (NA)"]
+
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal"],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "Para desligar, é necessário enviar um pulso no borne S1, que comanda a parada do motor.",
+        "Sem acionar o S2 e o S3, a 1ª velocidade é controlada pelo parâmetro PC.00.",
+        "Acionando o S2, a 2ª velocidade passa a ser controlada pelo parâmetro PC.01.",
+        "Acionando o S3, a 3ª velocidade passa a ser controlada pelo parâmetro PC.02."
+
+      ]
+    },
+
+    " - 3 Fios + Up / Down": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if20-3_Fios_Up_Down.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.04", "1"],
+        ["P0.10", "Valor Hz inicial"],
+        ["P0.23", "1"],
+        ["P5.01", "2"],
+        ["P5.02", "3"],
+        ["P5.03", "6"],
+        ["P5.04", "7"],
+        ["P5.11", "2"],
+        ["P5.12", "Hz por pulso"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA)"],
+        ["S1 + GND", "Desliga (NF)"],
+        ["S2 + GND", "+ Velocidade (NA)"],
+        ["S3 + GND", "- Velocidade (NA)"]
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal "],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "Para desligar, é necessário enviar um pulso no borne S1, que comanda a parada do motor.",
+        "Acionando o borne S2, o inversor recebe comando de aumento de frequência.",
+        "Acionando o borne S3, o inversor recebe comando de redução da frequência.",
+        "O parâmetro P5.12 define o valor do pulso de frequência."
+
+      ]
+    },
+
+
+    " - 3 Fios + Frequência via (0 – 10V) com Vel. inversamente proporcional": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.04", "2"],
+        ["P5.02", "3"],
+        ["P5.11", "2"],
+        ["P5.13", "0.00"],
+        ["P5.14", "0.00"],
+        ["P5.15", "10.0"],
+        ["P5.16", "0.0"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA)"],
+        ["S1 + GND", "Desliga (NF)"],
+        ["FIV = Terminal Entrada Analógica (0 – 10V)"]
+        
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal "],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Os Parâmetros P5.13 até P5.16 pertencem ao grupo de configuração das entradas analógicas.",
+        "Especificamente, eles definem os pontos da Curva 1 (FIV - Entrada Analógica de Tensão), permitindo mapear o sinal elétrico recebido (em volts) para a porcentagem de velocidade/frequência desejada do motor.",        "Acionando o borne S2, o inversor recebe comando de aumento de frequência.",
+        "P5.13 = 0.00 V (Início do Sinal com 0V).",
+        "P5.14 = 100.0% (100% da velocidade quando o Sinal estiver no mínimo).",
+        "P5.15 = 10.00 V (Fim do Sinal com 10V).",
+        "P5.16 = 0.0% (0% da velocidade quando o Sinal estiver no máximo)."
+      ]
+    },
+
+
+    " - 3 Fios + Frequência via (4 – 20 mA) com Vel. inversamente proporcional": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.04", "2"],
+        ["P5.02", "3"],
+        ["P5.11", "2"],
+        ["P5.18", "2.00"],
+        ["P5.19", "100.0"],
+        ["P5.20", "10.0"],
+        ["P5.21", "0.0"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA)"],
+        ["S1 + GND", "Desliga (NF)"],
+        ["FIC = Terminal Entrada Analógica (4 – 20mA)"]
+        
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal "],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Os Parâmetros P5.13 até P5.16 pertencem ao grupo de configuração das entradas analógicas.",
+        "Especificamente, eles definem os pontos da Curva 2 (FIC - Entrada Analógica de Corrente), permitindo mapear o sinal elétrico recebido (I) para a porcentagem de velocidade/frequência desejada do motor.",        "Acionando o borne S2, o inversor recebe comando de aumento de frequência.",
+        "P5.18 = 2.00 V (Início do Sinal com 4mA).",
+        "P5.19 = 100.0% (100% da velocidade quando o Sinal estiver no mínimo).",
+        "P5.20 = 10.00 V (Fim do Sinal com 20mA).",
+        "P5.21 = 0.0% (0% da velocidade quando o Sinal estiver no máximo)."
+      ]
+    },
+
+
+    " - 3 Fios + Potenciômetro Externo + JOG": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.04", "2"],
+        ["P5.00", "1"],
+        ["P5.01", "2"],
+        ["P5.02", "3"],
+        ["P5.03", "4"],
+        ["P5.04", "5"],
+        ["P5.11", "2"],
+        ["P8.00", " Frequência de JOG [Hz]"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA)"],
+        ["S1 + GND", "Desliga (NF)"],
+        ["FIV + Potenciômetro","Terminal central pot."], 
+        ["+10V + Potenciômetro","Terminal positivo pot."],
+        ["GND + Potenciômetro", "Terminal negativo pot."]        
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal "],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "Para desligar, é necessário enviar um pulso no borne S1, que comanda a parada do motor.",
+        "A rotação é ajustada por um potenciômetro externo do inversor.",
+        "Ao fechar o borne S2, o inversor aciona o motor no modo JOG Avanço, na Velocidade ajustada em P8.00.",
+        "Ao fechar o borne S3, o inversor aciona o motor no modo JOG Reverso, na Velocidade ajustada em P8.00."
+      ]
+    },
+
+
+    " - AutoTunning": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P0.00", "1 - Tipo G (carga de torque constante)"],
+        ["P0.12", "60 [Hz] - Frequencia máxima"],
+        ["P0.14", "60 [Hz] - Frequência do limite superior"],
+        ["P2.00", "0 - Motor assíncrono"],
+        ["P2.01", "[kW] - * Potência nominal motor "],
+        ["P2.02", "[V] - * Tensão nominal motor "],
+        ["P2.03", "[A] - * Corrente nominal motor "],
+        ["P2.04", "[Hz] - * Frequência nominal motor "],
+        ["P2.05", "[RPM] - * RPM do motor "],
+        ["P2.37", "1 Ajuste estatico / 2 Ajuste dinâmico"]
+
+      ],
+
+      "ligacoes": [],
+
+      "motor": [],
+
+      "observacoes": [
+        "Após configurar o valor 1 no parâmetro P2.37, é preciso ligar o comando de rodar do inversor através do teclado frontal do mesmo na tecla RUN. Após o teclado apresentar a mensagem “STUDY” você deve aguardar o inversor fazer as leituras do motor, no final da leitura dos dados, caso a leitura seja correta, o inversor volta seu display/teclado para o modo de espera/pronto, isto indica que o autotuning foi concluído com sucesso."
+        
+      ]
+    },
+
+
+    " - Rele de Saída (RA-RB-RC)": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P6.02", "1: Inversor funcionando 2: Falha"]
+      ],
+
+      "ligacoes": [
+        
+      ],
+
+      "motor": [
+      ],
+
+      "observacoes": [
+        "P6.02 = 0 Sem função",
+        "P6.02 = 1 Inversor funcionando",
+        "P6.02 = 2 Falha (parado)",
+        "P6.02 = 3 Detecção da frequência FDT1",
+        "P6.02 = 4 Frequência atingida",
+        "P6.02 = 5 Velocidade zero em RUN (saída ligada se o comando RUN ativado e frequência = 0Hz saída desligada se estiver em STOP)",
+        "P6.02 = 6 Pré alarme de sobrecarga do motor",
+        "P6.02 = 7 Pré alarme de sobrecarga do inversor",
+        "P6.02 = 8 Valor da contagem atingido",
+        "P6.02 = 9 Valor da contagem designada atingido",
+        "P6.02 = 10 Comprimento atingido",
+        "P6.02 = 11 Ciclo do CLP completo",
+        "P6.02 = 12 Tempo acumulativo de funcionamentoatingido",
+        "P6.02 = 13 Frequência limitada" ,   
+        "P6.02 = 14 Torque limitado",
+        "P6.02 = 15 Pronto para rodar", 
+        "P6.02 = 16 FIV > FIC",
+        "P6.02 = 17 Limite superior da frequência atingido",
+        "P6.02 = 18 Limite inferior da frequência atingido",
+        "P6.02 = 19 Sub tensão",
+        "P6.02 = 20 Configuração de comunicação",
+        "P6.02 = 21 Reservado",
+        "P6.02 = 22 Reservado",
+        "P6.02 = 23 Velocidade zero em RUN (saída ligada se o comando RUN ativado e frequência = 0Hz; saída ligada se estiver em STOP)",
+        "P6.02 = 24 Tempo acumulativo de energização atingido",
+        "P6.02 = 25 Detecção da frequência FDT2. ",
+        "P6.02 = 26 Frequência 1 atingida",
+        "P6.02 = 27 Frequência 2 atingida",
+        "P6.02 = 28 Corrente 1 atingida",
+        "P6.02 = 29 Corrente 2 atingida",
+        "P6.02 = 30 Tempo atingido",
+        "P6.02 = 31 Limite da entrada FIV excedido",
+        "P6.02 = 32 Sem carga",
+        "P6.02 = 33 Reverso funcionando",
+        "P6.02 = 34 Estado de zero corrente",
+        "P6.02 = 35 Temperatura do módulo atingida",
+        "P6.02 = 36 Corrente limite de software excedida",
+        "P6.02 = 37 Limite mínimo da frequência atingido",
+        "P6.02 = 38 Saída de alarme",
+        "P6.02 = 39 Reservado. ",
+        "P6.02 = 40 Tempo de funcionamento atual atingido."
+      ]
+    },
+
+    " - Resistor de Frenagem": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P4.10", "0"],
+        ["P9.03", "0"]
+       
+      ],
+
+      "ligacoes": [
+        ""
+      ],
+
+      "motor": [],
+
+      "observacoes": [
+        "Em inversores de 0,75 a 1,5 kW: ligar o resistor nos terminais PR e +",
+        "Em inversores acima de 1,5 kW (com módulo integrado): ligar nos terminais B1 e B2",
+        "Para modelos que exigem módulo externo: conectar o módulo aos terminais – e +/B1"
+        
+      ]
+    },
+
+    " - Configuração Motor": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+      ],
+
+      "ligacoes": [
+        
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal"],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+
+      ],
+
+      "observacoes": [
+        
+      ]
+    },
+
+    " - Freio DC Partida": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P1.03", "Frequência inicialização, 0,0 ~ 10,00 Hz"],
+        ["P1.04", "Tempo espera frequência inicializção, 0,0 ~ 100,0s"],
+        ["P1.05", "Corrente freio DC, 0,0 ~ 100%"],
+        ["P1.06", "Tempo freio DC, tempo de pré-excitação, 0,0 ~ 100,0s "]
+      ],
+
+      "ligacoes": [
+        
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal do motor"],
+        ["P2.02", "[V] - Tensão nominal do motor"],
+        ["P2.03", "[A] - Corrente nominal do motor"],
+        ["P2.04", "[Hz] - Frequência nominal do motor"],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal do motor"]
+      ],
+
+      "observacoes": [
+        "P1.03 (Frequência de inicialização): Define a frequência inicial (0,00 a 10,00 Hz) na qual o motor começa a girar assim que o comando de partida é acionado.",
+        "P1.04 (Tempo de espera da frequência de inicialização): Determina o tempo (0,0 a 100,0 segundos) em que o inversor permanece mantendo essa frequência inicial antes de iniciar a rampa de aceleração.",
+        "P1.05 (Corrente do freio DC / Corrente de pré-excitação): Ajusta a porcentagem (0 a 100%) de corrente contínua aplicada ao motor.",
+        "P1.06 (Tempo do freio DC / Tempo de pré-excitação): Define o tempo (0,0 a 100,0 segundos) de duração dessa injeção de corrente. Se ajustado em 0, a função é desativada."
+
+      ]
+    },
+
+    " - Freio DC Parada": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019   ",
+
+      "parametros": [
+        ["P1.11", "Freq. Ini. Freio DC, 0 ~ freq. máx. (Hz)"],
+        ["P1.12", "Tempo espera parada freio DC, 0,0 ~ 100,0s"],
+        ["P1.13", "Corrente parada freio DC, 0 ~ 100%"],
+        ["P1.14", "Tempo parada freio DC, 0 ~ 100,0s"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"]
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal"],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "P1.11 (Frequência inicial de parada do freio CC): Define o limite de frequência em Hz em que o inversor desliga a rampa normal e ativa o freio CC durante a desaceleração para a parada.",
+        "P1.12 (Tempo de espera de parada do freio CC): Determina o tempo de pausa (em segundos) entre o fim da desaceleração por rampa e o início efetivo da aplicação da corrente de frenagem CC.",
+        "P1.13 (Corrente de parada do freio CC): Ajusta a intensidade da corrente contínua injetada no motor (em porcentagem da corrente nominal) para segurar o eixo parado.",
+        "P1.14 (Tempo de parada do freio CC): Define por quanto tempo (em segundos) a corrente contínua permanecerá aplicada ao motor. Se ajustado em 0, essa função fica desabilitada."
+
+      ]
+    },
+
+    " - Frequência Atingida Saída Relé": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P6.02", "3"],
+        ["P8.19", "Valor limite"]  
+      ],
+
+      "ligacoes": [
+        ["RA + RC"]
+      ],
+
+      "motor": [
+      ],
+
+      "observacoes": [
+        "O Parâmetro P8.19 define o nível de detecção de frequência (FDT1). Ele serve para sinalizar quando a frequência de saída do inversor atinge um valor específico configurado pelo usuário."
+      ]
+    },
+
+    " - Ganho de Torque": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P4.01", "0,1 ~ 30,0%"]
+      ],
+
+      "ligacoes": [
+      ],
+
+      "motor": [
+      ],
+
+      "observacoes": [
+        "Ajuste Automático (P4.01 = 0): O inversor calcula e aplica o torque necessário com base nos dados nominais do motor.",
+        "Aumento do Valor (P4.01 > 0): Usado para cargas pesadas na partida onde o motor demonstra falta de força ou travamento inicial.",
+        "Valores Excessivos: Ajustar um valor muito alto pode causar superaquecimento do motor e disparo por sobrecorrente no inversor.",
+        "Cargas Leves: Recomenda-se manter o valor baixo caso a aplicação não exija alto torque de partida."
+
+      ]
+    },
+
+    " - Limitar Frequência": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P0.12", "50,00 ~ 320,00Hz."],
+        ["P0.14", "Frequência limite inferior"],
+        ["P0.16", "Frequência de limite inferior"]
+      ],
+
+      "ligacoes": [
+      ],
+
+      "motor": [
+      ],
+
+      "observacoes": [
+      ]
+    },
+
+    " - Modo CLP": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019 ",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.04", "7"],
+        ["PC.00", "1ª Velocidade"],
+        ["PC.01", "2ª Velocidade"],
+        ["PC.02", "3ª Velocidade"],
+        ["PC.16", "0"],
+        ["PC.18", "Tempo de Operação 1ª Velocidade [s]"],
+        ["PC.20", "Tempo de Operação 2ª Velocidade [s]"],
+        ["PC.22", "Tempo de Operação 3ª Velocidade [s]"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Botão liga (NA)"],
+        ["REV + GND", "Botão reversão (NA) (Opcional)"]       
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal"],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+        
+      ],
+
+      "observacoes": [
+        "O modo CLP serve para executar ciclos automáticos de velocidades e tempos programados, dispensando o uso de um CLP externo para tarefas sequenciais simples.",
+        "Permite configurar várias multi-velocidades (frequências em Hz) e os respectivos tempos de operação em cada uma delas.",
+        "O motor acelera, mantém a velocidade por um tempo determinado, muda para outra velocidade ou para, conforme o perfil programado.",
+        "Pode rodar o ciclo uma vez e parar, repetir o processo de forma infinita ou manter a última frequência ao fim do ciclo."
+          
+      ]
+    },
+    
+    " - Modbus": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if20-Modbus.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019   ",
+
+      "parametros": [
+        ["P0.02", "2"],
+        ["P0.04", "9"],
+        ["PD.00", "5 (9600) / 6 (19200) / 7 (38400)"],
+        ["PD.01", "3 (8N1 - RTU)"],
+        ["PD.02", "Endereço MODBUS (ID Modbus)"]
+      ],
+
+      " ligacoes": [
+        ["(RS- e RS+)", "Ligação cabo Modbus"]
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal"],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "PD.00 = Velocidade de comunicação",
+        "PD.01 = Formato de comunicação",
+        "PD.02 = Endereço MODBUS (ID Modbus)",
+        "Valor frequência principal (1000H)",
+        "Enviando comando avanço (escreva 01H) em 2000H:",
+        "Enviando comando parada (escreva 06H) em 2000H:"
+      ]
+    },
+
+    " - Spindle": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.04", "2"],
+        ["P0.12", "320"],
+        ["P0.14", "320"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"]
+       
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal"],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"] 
+       
+      ],
+
+      "observacoes": [
+        "Atenção à faixa de frequência estendida de até 320Hz, ao tipo de controle escalar V/F e às rampas de aceleração adequadas para evitar falhas de sobrecorrente.",
+        "Não ligar o equipamento com a configuração padrão de fábrica, pois pode queimar o spindle devido à incompatibilidade de tensão em baixas frequências.",
+        "Configuração de Frequência (Crítico): Altere a Frequência Máxima e a Frequência Base do Motor de 60Hz (padrão de fábrica) para 320Hz (frequência típica de spindles de 24.000 RPM). Se ligar em 60Hz, o motor queimará por excesso de tensão.",
+        "Ajuste de Rampas e Limites: Configure o tempo de aceleração e desaceleração entre 5 e 10 segundos para evitar erros de sobrecorrente ou sobretensão."
+      ]
+    },
+
+    " - Multi Velocidade": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if20-Multivelocidade.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019   ",
+      
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.04", "6"],
+        ["P5.04", "14"],
+        ["P5.03", "13"],
+        ["P5.02", "12"],
+        ["PC.00", "Primeira velocidade *SEM S1 e S2*"],
+        ["PC.01", "Segunda velocidade S1 + GND"],
+        ["PC.02", "Terceira velocidade S2 + GND"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga"],
+        ["REV + GND", "Reversão"],
+        ["S1 + GND", "Segunda velocidade"],
+        ["S2 + GND", "Terceira velocidade"]
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal"],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Ao manter o borne FWD fechado, o inversor aciona o motor.",
+        "Para desligar, é necessário abrir o borne FWD.",
+        "Sem acionar o S1 e o S2, a 1ª velocidade é controlada pelo parâmetro PC.00.",
+        "Acionando o S1, a 2ª velocidade passa a ser controlada pelo parâmetro PC.01.",
+        "Acionando o S2, a 3ª velocidade passa a ser controlada pelo parâmetro PC.02."
+      ]
+    },
+
+    " - Parâmetros Básicos": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P0.02", "0 Painel de operação do inversor / = 1 Terminais externos"],
+        ["P0.04", "1  Teclado / = 2 Potenciômetro ou 0 A 10V"],
+        ["P0.08", "Tempo de aceleração"],
+        ["P0.09", "Tempo de desaceleração"],
+        ["P0.12", "Frequência máxima"],
+        ["P0.14", "Frequência Limite superior"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga"],
+        ["REV + GND", "Reversão"],
+        ["FIV + Potenciômetro","Terminal central pot."], 
+        ["+10V + Potenciômetro","Terminal positivo pot."],
+        ["GND + Potenciômetro", "Terminal negativo pot."]
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal"],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+
+      ],
+
+      "observacoes": [
+
+      ]
+    },
+
+    " - PID": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.04", "8"],
+        ["PA.00", "0"],
+        ["PA.01", "Valor de setup do PID"],
+        ["PA.02", "0 = tensão FIV / 1 = corrente FIC. Fonte do retorno do PID"],
+        ["PA.03", "Direção da ação do PID"],
+        ["PA.05", "Ganho proporcional"],
+        ["PA.06", "Tempo integral "],
+        ["PA.07", "Tempo diferencial"]
+        
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga"],
+        ["REV + GND", "Reversão"],
+        ["AVI + GND", "Chave seletora para baixo 0-10V ou Chave seletora para cima 4-20mA "]
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal"],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "Para desligar, é necessário abrir o borne FWD.",
+        "A função PID (Grupo de Parâmetros PA) ajusta automaticamente a rotação do motor para manter o setpoint de pressão, vazão ou temperatura. Ela ajusta a velocidade do motor em malha fechada sem precisar de um CLP externo.",
+        "A entrada analógica FIV (Tensão) ou FIC (Corrente) é utilizada para feedback do sistema."
+      ]
+    },
+
+    " - Potenciômetro e Terminal": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if20-Potenciometro.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.04", "2"]
+      ],
+
+      "ligacoes": [
+        ["FIV", "Terminal central potenciômetro"],
+        ["+10V", "Terminal positivo potenciômetro"],
+        ["GNG", "Terminal negativo potenciômetro"],
+        ["FWD + GND", "Botão liga (NA)"],
+        ["REV + GND", "Botão reversão (NA) (Opcional)"]
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal"],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "Para desligar, é necessário abrir o borne FWD.",
+        "A rotação é ajustada por um potenciômetro externo do inversor."
+      ]
+    },
+
+    " - Reset de Fábrica": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["PP.01", "1"]
+      ],
+
+      "ligacoes": [
+      ],
+      "motor": [
+      ],
+      "observacoes": [
+        "Restauração padrão: Retorna todos os parâmetros aos valores originais de fábrica, preservando as configurações do motor e dados acumulativos."
+      ]
+    },
+
+    " - Troca Velocidade X Potenciômetro ou 0-10V, Y Multispeed": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if20_X_Potenciometro_Y_Multispeed.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.03", "2"],
+        ["P0.04", "2"],
+        ["P0.05", "6"],
+        ["P5.03", "18"],
+        ["P5.02", "12"],
+        ["PC.00", "Primeira velocidade EM %"],
+        ["PC.01", "Segunda velocidade EM %"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"],
+        ["S1 + GND", "2ª Velocidade (NA)"],
+        ["S2 + GND", "Alterna frequência X para Y (NA)"],
+        ["FIV", "Terminal central potenciômetro"],
+        ["+10V", "Terminal positivo potenciômetro"],
+        ["GND", "Terminal negativo potenciômetro"]
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal"],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+      "observacoes": [
+        "Ao manter o borne FWD fechado, o inversor aciona o motor.",
+        "A rotação é ajustada por um potenciômetro externo do inversor.",
+        "Para desligar, é necessário abrir o borne FWD.",
+        "Acionando o S1, a referência da velocidade é alterada do Potenciômetro para o modo Multispeed.",
+        "Sem acionar o S2, 1ª velocidade é controlada pelo parâmetro PC.00.",
+        "Acionando o S2, a 2ª velocidade passa a ser controlada pelo parâmetro PC.01."
+
+      ]
+    },
+
+    " - Troca Velocidade X Multispeed Y Potenciômetro ou 0-10V": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if20_X_Y_Multispeed_Potenciometro.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.03", "2"],
+        ["P0.04", "6"],
+        ["P0.05", "2"],
+        ["P5.03", "18"],
+        ["P5.02", "12"],
+        ["PC.00", "Primeira velocidade EM %"],
+        ["PC.01", "Segunda velocidade EM %"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"],
+        ["S1 + GND", "2ª Velocidade (NA)"],
+        ["S2 + GND", "Alterna frequência X para Y (NA)"],
+        ["FIV", "Terminal central potenciômetro"],
+        ["+10V", "Terminal positivo potenciômetro"],
+        ["GND", "Terminal negativo potenciômetro"]
+      ],
+
+      "motor": [
+        ["P2.01", "KW - Potência nominal motor"],
+        ["P2.02", "V - Tensão nominal motor"],
+        ["P2.03", "A - Corrente nominal motor"],
+        ["P2.04", "Hz - Frequência nominal motor"],
+        ["P2.05", "RPM - Velocidade de rotação nominal motor"]
+      ],
+
+      "observacoes": [
+        "Ao manter o borne FWD fechado, o inversor aciona o motor.",
+        "Para desligar, é necessário abrir o borne FWD.",
+        "Sem acionar o S2, 1ª velocidade é controlada pelo parâmetro PC.00.",
+        "Acionando o S2, a 2ª velocidade passa a ser controlada pelo parâmetro PC.01.",
+        "Acionando o S1, a referência da velocidade é alterada do modo Multispeed para o Potenciômetro.",
+        "A rotação é ajustada por um potenciômetro externo do inversor."
+      ]
+      
+    },
+
+    " - Últimos Alarmes Inversor": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P9.14", "1ª Alarme "],
+        ["P9.15", "2ª Alarme"],
+        ["P9.16", "3ª Alarme"]
+      ],
+
+      "ligacoes": [
+      ],
+
+      "motor": [
+      ],
+
+      "observacoes": [
+        "1: Proteção do Inversor",
+        "2: Sobrecorrente na aceleração",
+        "3: Sobrecorrente na desaceleração",
+        "4: Sobrecorrente em velocidade constante",
+        "5: Sobretensão na aceleração",
+        "6: Sobretensão na desaceleração",
+        "7: Sobretensão em velocidade constante", 
+        "8: Sobrecarga no resistor do amortecimento",
+        "9: Subtensão",
+        "10: Sobrecarga no inversor",
+        "11: Sobrecarga no motor",
+        "12: Reservado",
+        "13: Falta de fase na saída",
+        "14: Sobreaquecimento do módulo",
+        "15: Falha de equipamento externo",
+        "16: Falha de comunicação",
+        "17: Falha do contator",
+        "18: Falha de detecção de corrente",
+        "19: Falha no auto-tuning do motor",
+        "20: Reservado",
+        "21: Falha de escrita/leitura da EEPROM",
+        "22:Falha de hardware do inversor",
+        "23: Curto-circuito à terra",
+        "24: Reservado",
+        "25: Reservado",
+        "26: Tempo acumulativo de funcionamento atingido",
+        "27: Reservado",
+        "28: Reservado",
+        "29: Tempo acumulativo de energização atingido",
+        "30: Sem carga",
+        "31: Perda do sinal de retorno do PID durante funcionamento",
+        "40: Falha do limite de corrente",
+        "41-43: Reservado",
+        "51: Reservado",
+        "0: Sem falha"
+      ]
+    },
+
+    " - Up / Down": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if20-Up_Down.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.04", "1"],
+        ["P0.10", "Valor Hz inicial"],
+        ["P0.23", "1"],
+        ["P5.00", "1"],
+        ["P5.01", "2"],
+        ["P5.02", "6"],
+        ["P5.03", "7"],
+        ["P5.12", "PULSO EM Hz"]
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"],
+        ["S1 + GND", " + Velocidade)"],
+        ["S2 + GND", "- Velocidade)"]
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal"],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [ 
+        "Ao fechar o borne FWD, o inversor aciona o motor.",
+        "Para desligar, é necessário abrir o borne FWD.",
+        "Acionando o borne S1, o inversor recebe comando de aumento de frequência.",
+        "Acionando o borne S2, o inversor recebe comando de redução de frequência.",
+        "O parâmetro P5.12 define o valor do pulso de frequência."
+
+      ]
+    }
+  },
+
+  "IF30": {
+
+    " - 2 Fios + Potenciômetro Externo": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.03", "3"]
+      ],
+
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM", "Reversão"],
+        ["FIC + Potenciômetro","Terminal central pot."], 
+        ["+10V + Potenciômetro","Terminal positivo pot."],
+        ["GND + Potenciômetro", "Terminal negativo pot."]
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal "],
+        ["P1.03", "[A] - Corrente nominal "],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne X1, o inversor aciona o motor.",
+        "A rotação é ajustada por um potenciômetro externo do inversor."  
+
+      ]
+    },
+
+    " - 2 Fios + Potenciômetro Frontal Local": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.03", "4"]
+      ],
+
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM", "Reversão (NA)"]
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne X1, o inversor aciona o motor.",
+        "A rotação é ajustada por um potenciômetro local do inversor."
+
+      ]
+    },
+
+    " - 2 Fios + Teclado Frontal Local": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.03", "1"],
+        ["P0.23", "1"]
+      ],
+
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM", "Reversão (NA)"]
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne X1, o inversor aciona o motor.",
+        "A rotação é ajustada por um potenciômetro local do inversor."
+
+      ]
+    },
+
+    " - 3 Fios + Potenciômetro Externo": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if30-3_Fios_Potenciometro_Externo.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.03", "3"],
+        ["P4.00", "1"],
+        ["P4.01", "2"],
+        ["P4.02", "3"],
+        ["P4.11", "2"]
+      ],
+
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM", "Reversão"],
+        ["X3 + COM"," Desliga (NF)"],
+        ["FIC + Potenciômetro","Terminal central pot."], 
+        ["+10V + Potenciômetro","Terminal positivo pot."],
+        ["GND + Potenciômetro", "Terminal negativo pot."]
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal "],
+        ["P1.03", "[A] - Corrente nominal "],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne X1, o inversor aciona o motor.",
+        "Para desligar, é necessário enviar um pulso no borne X3, que comanda a parada do motor.",
+        "A rotação é ajustada por um potenciômetro externo do inversor."  
+
+      ]
+    },
+
+    " - 3 Fios + Potenciômetro Frontal Local": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if30-3_Fios_Potenciometro_do_Frontal_Local.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.03", "4"],
+        ["P4.00", "1"],
+        ["P4.01", "2"],
+        ["P4.02", "3"],
+        ["P4.11", "2"]
+      ],
+
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM", "Reversão (NA)"],
+        ["X3 + COM"," Desliga (NF)"]
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne X1, o inversor aciona o motor.",
+        "Para desligar, é necessário enviar um pulso no borne X3, que comanda a parada do motor.",
+        "A rotação é ajustada por um potenciômetro local do inversor."
+
+      ]
+    },
+
+    " - 3 Fios + Multi Velocidade": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if30-3_Fios_Multivelocidade.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.03", "6"],
+        ["P4.00", "1"],
+        ["P4.01", "2"],
+        ["P4.02", "3"],
+        ["P4.04", "13"],
+        ["P4.03", "12"],
+        ["P4.11", "2"],
+        ["PC.00", "1ª Velocidade"],
+        ["PC.01", "2ª Velocidade"],
+        ["PC.02", "3ª Velocidade"]
+      ],
+
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM", "Reversão (NA)"],
+        ["X3 + COM"," Desliga (NF)"],
+        ["X4 + COM", "2ª Velocidade (NA)"],
+        ["X5 + COM", "3ª Velocidade (NA)"]
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne X1, o inversor aciona o motor.",
+        "Para desligar, é necessário enviar um pulso no borne X3, que comanda a parada do motor.",
+        "Sem acionar o X4 e o X5, a 1ª velocidade é controlada pelo parâmetro PC.00.",
+        "Acionando o X4, a 2ª velocidade passa a ser controlada pelo parâmetro PC.01.",
+        "Acionando o X5, a 3ª velocidade passa a ser controlada pelo parâmetro PC.02."
+
+      ]
+    },
+
+    " - 3 Fios + UP / DOWN": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if30-3-Fios_Up_Down.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.03", "1"],
+        ["P4.00", "1"],
+        ["P4.01", "2"],
+        ["P4.02", "3"],
+        ["P4.03", "6"],
+        ["P4.04", "7"],
+        ["P4.11", "2"],
+        ["P4.12", "Hz por pulso"],
+        ["PC.00", "1ª Velocidade"],
+        ["PC.01", "2ª Velocidade"],
+        ["PC.02", "3ª Velocidade"]
+      ],
+
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM", "Reversão (NA)"],
+        ["X3 + COM"," Desliga (NF)"],
+        ["X4 + COM", "+ Velocidade (NA)"],
+        ["X5 + COM", "- Velocidade (NA)"]
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+      
+      "observacoes": [
+        "Ao fechar o borne X1, o inversor aciona o motor.",
+        "Para desligar, é necessário enviar um pulso no borne X3, que comanda a parada do motor.",
+        "Acionando o borne X4, o inversor recebe comando de aumento de frequência.",
+        "Acionando o borne X5, o inversor recebe comando de redução da frequência.",
+        "O parâmetro P4.11 define o valor do pulso de frequência."
+
+      ]
+    },
+
+    " - 3 Fios + Potenciômetro externo + JOG": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.03", "3"],
+        ["P4.00", "1"],
+        ["P4.01", "5"],
+        ["P4.02", "3"],
+        ["P4.03", "4"],
+        ["P4.11", "2"],
+        ["P8.00 = Frequência de JOG [Hz]"]
+      ],
+
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM = JOG Reverso (NA)"],
+        ["X3 + COM"," Desliga (NF)"],
+        ["X4 + COM = JOG Avanço (NA)"],
+        ["FIC + Potenciômetro","Terminal central pot."], 
+        ["+10V + Potenciômetro","Terminal positivo pot."],
+        ["GND + Potenciômetro", "Terminal negativo pot."]
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal "],
+        ["P1.03", "[A] - Corrente nominal "],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne X1, o inversor aciona o motor.",
+        "Para desligar, é necessário enviar um pulso no borne X3, que comanda a parada do motor.",
+        "A rotação é ajustada por um potenciômetro externo do inversor.",
+        "Ao fechar o borne X2, o inversor aciona o motor no modo JOG Reverso, na Velocidade ajustada em P8.00.",
+        "Ao fechar o borne S2, o inversor aciona o motor no modo JOG Avanço, na Velocidade ajustada em P8.00." 
+      ]
+    },
+
+    " - AutoTunning": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P0.00", "1 - Tipo G (carga de torque constante)"],
+        ["P0.10", "60 [Hz] - Frequencia máxima"],
+        ["P0.12", "60 [Hz] - Frequência do limite superior"],
+        ["P1.00", "0 - Motor assíncrono"],
+        ["P1.01", "[kW] - * Potência nominal motor "],
+        ["P1.02", "[V] - * Tensão nominal motor "],
+        ["P1.03", "[A] - * Corrente nominal motor "],
+        ["P1.04", "[Hz] - * Frequência nominal motor "],
+        ["P1.05", "[RPM] - * RPM do motor "],
+        ["P1.37", "1 Ajuste estatico / 2 Ajuste dinâmico"]
+
+      ],
+
+      "ligacoes": [],
+
+      "motor": [],
+
+      "observacoes": [
+        "Após configurar o valor 1 no parâmetro P1.37, é preciso ligar o comando de rodar do inversor através do teclado frontal do mesmo na tecla RUN. Após o teclado apresentar a mensagem “STUDY” você deve aguardar o inversor fazer as leituras do motor, no final da leitura dos dados, caso a leitura seja correta, o inversor volta seu display/teclado para o modo de espera/pronto, isto indica que o autotuning foi concluído com sucesso."
+        
+      ]
+    },
+
+    " - Relé de Saída (YA / YB / YC)": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P5.02", "1: Inversor funcionando 2: Falha"]
+      ],
+
+      "ligacoes": [
+      ],
+
+      "motor": [
+      ],
+
+      "observacoes": [
+        "P5.02 = 0 Sem Função",
+        "P5.02 = 1 Sem Função",
+        "P5.02 = 2 Em falha - STOP",
+        "P5.02 = 3 Frequência FDT1 atingida",
+        "P5.02 = 4 Frequência atingida",
+        "P5.02 = 5Partida com 0Hz",
+        "P5.02 = 6 Pré aviso de sobrecarga no motor",
+        "P5.02 = 7 Pré aviso de sobrecarga no inversor",
+        "P5.02 = 8 Valor de contagem alcançado",
+        "P5.02 = 9 Valor de contagem designado",
+        "P5.02 = 10 Comprimento alcançado",
+        "P5.02 = 11 Ciclo de CLP completo",
+        "P5.02 = 12 Tempo acumulado de operação atingido",
+        "P5.02 = 13 Frequência limitada",
+        "P5.02 = 14 Torque limitado",
+        "P5.02 = 15 Pronto para partida",
+        "P5.02 = 16 FIV maior que FIC",
+        "P5.02 = 17 Limite superior de frequência atingido",
+        "P5.02 = 18 Limite inferior de frequência atingido",
+        "P5.02 = 19 Em subtensão",
+        "P5.02 = 20 Em comunicação",
+        "P5.02 = 21  Reservado",
+        "P5.02 = 22  Reservado",
+        "P5.02 = 23 Velocidade zero em operação (2)",
+        "P5.02 = 24 Tempo energizado alcançado (acumulativo)",
+        "P5.02 = 25 Detecção da frequência FDT2",
+        "P5.02 = 26 Frequência 1 atingida",
+        "P5.02 = 27 Frequência 2 atingida",
+        "P5.02 = 28 Corrente 1 atingida",
+        "P5.02 = 29 Corrente 2 atingida",
+        "P5.02 = 30 Tempo atingido",
+        "P5.02 = 31 FIV Limite de entrada excedido",
+        "P5.02 = 32 Carga zero",
+        "P5.02 = 33 Rotação reversa",
+        "P5.02 = 34 Zero corrente",
+        "P5.02 = 35 Temperatura do módulo atingida",
+        "P5.02 = 36 Limite de corrente excedido",
+        "P5.02 = 37 Limite mínimo de frequência atingido",
+        "P5.02 = 38 Saída de alarme",
+        "P5.02 = 39 Reservado",
+        "P5.02 = 40 Tempo de operação atingido",
+        "P5.02 = 41 Falha na saída (sem tensão)"
+      ]
+    },
+
+    " - Resistor de Frenagem": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P3.10", "0"],
+        ["P9.03", "0"]
+       
+      ],
+
+      "ligacoes": [
+        ""
+      ],
+
+      "motor": [],
+
+      "observacoes": [
+        "Para conexões do resistor de frenagem, ( * +/B1 e B2 * para faixa de aplicação 1 a 10 CV - 220V  e 1 a 20 CV - 380/480V)",
+        "Para conexões do resistor de frenagem, ( * + e PB * para faixa de aplicação 15 a 40 CV - 220V  e 25 a 50 CV - 380/480V)"
+        
+      ]
+    },
+
+    " - Configuração Motor": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+      ],
+
+      "ligacoes": [
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+      ]
+    },
+
+    " - Elevador de Carga - Modo Escalar": {
+      "link": "https://drive.google.com/file/d/14KKIQy_hUzIGma9XI6jjAMoXeWcT48tS/view?usp=sharing",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P0.00", "1"],
+        ["P0.08", "60"],
+        ["P0.10", "60"],
+        ["P0.12", "60"],
+        ["P1.00",  "0"],
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"],
+        ["P1.37", "1 - Ajuste estático "],
+        "*Após o autotuning inserir demais parametros*",
+        ["P0.01", "2"],
+        ["P0.02", "1"],
+        ["P0.03", "6"],
+        ["P0.17", "3,5s"],
+        ["P0.18", "1,0s"],
+        ["P3.01", "0"],
+        ["P3.02", "[60Hz]"],
+        ["P3.10", "0"],
+        ["P3.18", "200"],
+        ["P3.20", "20"],
+        ["P4.00", "1"],
+        ["P4.01", "2"],
+        ["P4.02", "12"],
+        ["P5.02", "3"],
+        ["P5.04", "36"],
+        ["P8.12", "0.0s"],
+        ["P8.19", "2"],
+        ["P8.20", "0"],
+        ["P8.36", "30"],
+        ["P8.37", "0 [s]"],
+        ["P9.00", "1"],
+        ["P9.01", "1.00"],
+        ["PC.00", "1ª Velocidade"],
+        ["PC.01", "2ª Velocidade"]
+      
+        
+      ],
+
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM", "Reversão (NA)"],
+        ["X3 + COM"," 2ª Velocidade (NA)"]
+     
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+      
+      "observacoes": [
+        "Para conexões do resistor de frenagem, ( * +/B1 e B2 * para faixa de aplicação 1 a 10 CV - 220V  e 1 a 20 CV - 380/480V)",
+        "Para conexões do resistor de frenagem, ( * + e PB * para faixa de aplicação 15 a 40 CV - 220V  e 25 a 50 CV - 380/480V)"
+
+      ]
+    },
+
+    " - Elevador de Carga - Modo Vetorial": {
+      "link": "https://drive.google.com/file/d/14KKIQy_hUzIGma9XI6jjAMoXeWcT48tS/view?usp=sharing",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P0.00", "1"],
+        ["P0.08", "60"],
+        ["P0.10", "60"],
+        ["P0.12", "60"],
+        ["P1.00",  "0"],
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"],
+        ["P1.37", "1 - Ajuste estático "],
+        "*Após o autotuning inserir demais parametros*",
+        ["P0.01", "0"],
+        ["P0.02", "1"],
+        ["P0.03", "6"],
+        ["P0.17", "3,5s"],
+        ["P0.18", "1,0s"],
+        ["P3.01", "0"],
+        ["P3.02", "[60Hz]"],
+        ["P3.10", "0"],
+        ["P3.11", "0"],
+        ["P3.18", "200"],
+        ["P3.20", "20"],
+        ["P4.00", "1"],
+        ["P4.01", "2"],
+        ["P4.02", "12"],
+        ["P5.02", "3"],
+        ["P5.04", "36"],
+        ["P8.12", "0.0s"],
+        ["P8.19", "2"],
+        ["P8.20", "0"],
+        ["P8.36", "30"],
+        ["P8.37", "0 [s]"],
+        ["P9.00", "1"],
+        ["P9.01", "1.00"],
+        ["P9.03", "0"],
+        ["PC.00", "1ª Velocidade"],
+        ["PC.01", "2ª Velocidade"]
+      
+      ],
+
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM", "Reversão (NA)"],
+        ["X3 + COM"," 2ª Velocidade (NA)"]
+     
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+      
+      "observacoes": [
+        "Para conexões do resistor de frenagem, ( * +/B1 e B2 * para faixa de aplicação 1 a 10 CV - 220V  e 1 a 20 CV - 380/480V)",
+        "Para conexões do resistor de frenagem, ( * + e PB * para faixa de aplicação 15 a 40 CV - 220V  e 25 a 50 CV - 380/480V)"
+
+      ]
+    },
+
+
+    " - Freio DC Partida": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P6.03", "Frequência de inicialização do freio DC, 0,0 ~ 10,00 Hz"],
+        ["P6.04", "Tempo de espera da frequência de inicialização do freio DC, 0,0 ~ 100,0s"],
+        ["P6.05", "Corrente do freio DC, 0,0 ~ 100%"],
+        ["P6.06", "Tempo do freio DC, tempo de pré-excitação, 0,0 ~ 100,0s"]
+      ],
+
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM", "Reversão (NA)"],
+        ["X3 + COM"," Desliga (NA)"]
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "P6.03 (Frequência de inicialização): Define a frequência inicial (0,00 a 10,00 Hz) na qual o motor começa a girar assim que o comando de partida é acionado.",
+        "P6.04 (Tempo de espera da frequência de inicialização): Determina o tempo (0,0 a 100,0 segundos) em que o inversor permanece mantendo essa frequência inicial antes de iniciar a rampa de aceleração.",
+        "P6.05 (Corrente do freio DC / Corrente de pré-excitação): Ajusta a porcentagem (0 a 100%) de corrente contínua aplicada ao motor.",
+        "P6.06 (Tempo do freio DC / Tempo de pré-excitação): Define o tempo (0,0 a 100,0 segundos) de duração dessa injeção de corrente. Se ajustado em 0, a função é desativada." 
+
+      ]
+    },
+
+    " - Freio DC Parada": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P6.11", "Frequência de inicialização do freio DC, 0,0 ~ 10,00 Hz"],
+        ["P6.12", "Tempo de espera da frequência de inicialização do freio DC, 0,0 ~ 100,0s"],
+        ["P6.13", "Corrente do freio DC, 0,0 ~ 100%"],
+        ["P6.14", "Tempo do freio DC, tempo de pré-excitação, 0,0 ~ 100,0s"]
+      ],
+
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM", "Reversão (NA)"],
+        ["X3 + COM"," Desliga (NA)"]
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "P6.11 (Frequência inicial de parada do freio CC): Define o limite de frequência em Hz em que o inversor desliga a rampa normal e ativa o freio CC durante a desaceleração para a parada.",
+        "P6.12 (Tempo de espera de parada do freio CC): Determina o tempo de pausa (em segundos) entre o fim da desaceleração por rampa e o início efetivo da aplicação da corrente de frenagem CC.",
+        "P6.13 (Corrente de parada do freio CC): Ajusta a intensidade da corrente contínua injetada no motor (em porcentagem da corrente nominal) para segurar o eixo parado.",
+        "P6.14 (Tempo de parada do freio CC): Define por quanto tempo (em segundos) a corrente contínua permanecerá aplicada ao motor. Se ajustado em 0, essa função fica desabilitada."  
+
+      ]
+    },
+
+    " - Frequência Atingida (Aciona Saída Relé)": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P5.02", "3: Frequência FDT1 atingida"],
+        ["P8.19", "Valor Frequência de detecção (FDT1)"]
+      ],
+
+      "ligacoes": [
+        ["YA + YC", "(NA)"]
+
+      ],
+      "motor": [
+      ],
+      "observacoes": []
+    },
+
+    " - Função STO": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [],
+
+      "ligacoes": [
+        ["Jumper J9", "Colocar o Jumper nos pinos 1 e 2, para habilitar a função STO"],
+        ["X4 + COM", " Sinal STO (NF)"]
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Com a função STO habilitada através do Jumper J9, para uso da entrada de safety, fechar os contatos X4 e COM através de um Botão NF (normalmente fechado).",
+        "Ao acionar o botão e interromper o circuito, o inversor irá desligar a saída, parando o motor.",
+        "Após fechar o circuito novamente, não é necessário enviar nenhum comando de RESET no Inversor, bastando acionar novamente o comando LIGA."
+      ]
+    },
+    
+
+    " - Ganho de Torque": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P3.01", "0.0% ～ 30%"] 
+      ],
+
+      "ligacoes": [
+      ],
+
+      "motor": [
+      ],
+
+      "observacoes": [
+        "Aumento do Valor (P3.01 > 0): Usado para cargas pesadas na partida onde o motor demonstra falta de força ou travamento inicial.",
+        "Valores Excessivos: Ajustar um valor muito alto pode causar superaquecimento do motor e disparo por sobrecorrente no inversor.",
+        "Cargas Leves: Recomenda-se manter o valor baixo caso a aplicação não exija alto torque de partida."
+
+      ]
+    },
+
+    " - Limitar Frequência": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P0.10", "Frequência Máxima"],
+        ["P0.12", "Frequência Limite Superior"],
+        ["P0.14", "Frequência Limite Inferior"]
+      ],
+
+      "ligacoes": [
+      ],
+
+      "motor": [
+      ],
+
+      "observacoes": [
+
+      ]
+    },
+
+    " - Modo CLP": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",  
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.03", "7"],
+        ["PC.00", "1ª Velocidade"],
+        ["PC.01", "2ª Velocidade"],
+        ["PC.02", "3ª Velocidade"],
+        ["PC.16", "0"],
+        ["PC.18", "Tempo de Operação 1ª Velocidade [s]"],
+        ["PC.20", "Tempo de Operação 2ª Velocidade [s]"],
+        ["PC.22", "Tempo de Operação 3ª Velocidade [s]"]
+      ],
+
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM", "Reversão (NA)"]
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "O modo CLP serve para executar ciclos automáticos de velocidades e tempos programados, dispensando o uso de um CLP externo para tarefas sequenciais simples.",
+        "Permite configurar várias multi-velocidades (frequências em Hz) e os respectivos tempos de operação em cada uma delas.",
+        "O motor acelera, mantém a velocidade por um tempo determinado, muda para outra velocidade ou para, conforme o perfil programado.",
+        "Pode rodar o ciclo uma vez e parar, repetir o processo de forma infinita ou manter a última frequência ao fim do ciclo."
+
+      ]
+    },
+
+    " - Modbus": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if30-Modbus.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P0.02", "2"],
+        ["P0.03", "9"],
+        ["PD.00", "5 [9600]"],
+        ["PD.01", "3 [8,N,1]"],
+        ["PD.02", "Endereço MODBUS"]
+      ],
+
+      "ligacoes": [
+        ["RS+ e RS-", "Ligação cabo MODBUS"]
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "1000H: Valor da Frequência Principal",
+        "2000H: Escreva 01H (Partida sentido horário)",
+        "2000H: Escreva 02H (Partida sentido anti-horário)",
+        "2000H: Escreva 06h (Parada rampa desaceleração)"
+      ]
+    },
+
+    " - Spindle": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.03", "3"],
+        ["P0.10", "400"],
+        ["P0.12", "400"]
+      ],
+
+      "ligacoes": [
+        ["X1 + GND", "Liga"],
+        ["X2 + GND", "Reversão"],
+        ["FIC + Potenciômetro","Terminal central pot."], 
+        ["+10V + Potenciômetro","Terminal positivo pot."],
+        ["GND + Potenciômetro", "Terminal negativo pot."]
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Atenção à faixa de frequência estendida de até 400Hz, ao tipo de controle escalar V/F e às rampas de aceleração adequadas para evitar falhas de sobrecorrente.",
+        "Não ligar o equipamento com a configuração padrão de fábrica, pois pode queimar o spindle devido à incompatibilidade de tensão em baixas frequências.",
+        "Configuração de Frequência (Crítico): Altere a Frequência Máxima e a Frequência Base do Motor de 60Hz (padrão de fábrica) para 400Hz (frequência típica de spindles de 24.000 RPM). Se ligar em 60Hz, o motor queimará por excesso de tensão.",
+        "Ajuste de Rampas e Limites: Configure o tempo de aceleração e desaceleração entre 5 e 10 segundos para evitar erros de sobrecorrente ou sobretensão. "
+
+      ]
+    },
+
+    " - Parâmetros Básicos": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+      
+      "parametros": [
+        ["P0.02", "0 Painel de operação do inversor / = 1 Terminais externos"],
+        ["P0.03", ""],
+        ["P0.10", "Frequência máxima "],
+        ["P0.12", "Frequência limite superior"],
+        ["P0.14", "Frequência de limite inferior"],
+        ["P0.17", "Tempo de aceleração"],
+        ["P0.18", "Tempo de desaceleração"]
+      ],
+
+      "ligacoes": [
+        ["X1 + GND", "Liga"],
+        ["X2 + GND", "Reversão"],
+        ["FIC + Potenciômetro","Terminal central pot."], 
+        ["+10V + Potenciômetro","Terminal positivo pot."],
+        ["GND + Potenciômetro", "Terminal negativo pot."]
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+
+      ]
+    },
+
+    " - PID": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.03", "8"],
+        ["PA.00", "0"],
+        ["PA.01", "Valor de setpoint do PID"],
+        ["PA.02", "Fonte de realimentação PID (1: FIC)"],
+        ["PA.03", "Direção ação PID (0: Ação direta / 1: Ação reversa)"],
+        ["PA.05", "Ganho proporcional"],
+        ["PA.06", "Tempo integral"],
+        ["PA.07", "Tempo diferencial"]
+
+      ],
+
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM", "Reversão (NA)"],
+        ["FIC","Jumper J3 (Chave seletora para cima 0 -10V / Chave seletora para baixo 4 a 20mA"],
+        ["X4 + COM", "3ª Velocidade (NA)"] 
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Ao fechar o borne X1, o inversor aciona o motor.",
+        "Para desligar, é necessário abrir o borne X1.",
+        "A função PID (Grupo de Parâmetros PA) ajusta automaticamente a rotação do motor para manter o setpoint de pressão, vazão ou temperatura. Ela ajusta a velocidade do motor em malha fechada sem precisar de um CLP externo.",
+        "A entrada analógica FIC é utilizada para feedback do sistema."
+
+      ]
+    },
+
+    " - Multi Velocidade": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if30-Multivelocidade.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",  
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.03", "6"],
+        ["P4.04", "14"],
+        ["P4.03", "13"],
+        ["P4.02", "12"],
+        ["PC.00", "1ª Velocidade"],
+        ["PC.01", "2ª Velocidade"],
+        ["PC.02", "3ª Velocidade"]
+      ],
+
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM", "Reversão (NA)"],
+        ["X3 + COM","2ª Velocidade (NA)"],
+        ["X4 + COM", "3ª Velocidade (NA)"] 
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Ao manter o borne X1 fechado, o inversor aciona o motor.",
+        "Para desligar, é necessário abrir o borne X1.",
+        "Sem acionar o X3 e o X4, a 1ª velocidade é controlada pelo parâmetro PC.00.",
+        "Acionando o X3, a 2ª velocidade passa a ser controlada pelo parâmetro PC.01.",
+        "Acionando o X4, a 3ª velocidade passa a ser controlada pelo parâmetro PC.02."
+      ]
+
+    },
+
+    " - Potenciômetro Externo e Terminal": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if30-Potenciometro.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.03", "3"],
+        ["P4.00", "1"],
+        ["P4.01", "2"]
+
+      ],
+
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM", "Reversão (NA)"],
+        ["FIC + Potenciômetro","Terminal central pot."], 
+        ["+10V + Potenciômetro","Terminal positivo pot."],
+        ["GND + Potenciômetro", "Terminal negativo pot."]
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [
+        "Ao manter o borne X1 fechado, o inversor aciona o motor.",
+        "Para desligar, é necessário abrir o borne X1.",
+        "A rotação é ajustada por um potenciômetro externo do inversor."
+      ]
+    },
+
+    " - Reset de Fábrica": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["PP.01", "1"]
+      ],
+      "ligacoes": [
+      ],
+      "observacoes": [
+        "Restauração padrão: Retorna todos os parâmetros aos valores originais de fábrica, preservando as configurações do motor e dados acumulativos."
+      
+      ]
+    },
+
+    " - Troca Velocidade (X = Potenciometro ou 0-10V / Y = Multispeed)": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if30_X_Potenciometro_Y_Multispeed.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.03", "3"],
+        ["P0.04", "6"],
+        ["P0.07", "2"],
+        ["P4.03", "18"],
+        ["P4.02", "12"],
+        ["PC.00", "1ª Velocidade [%]"],
+        ["PC.01", "2ª Velocidade [%]"]
+        
+      ],
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM", "Reversão (NA)"],
+        ["X3 + COM"," 2ª Velocidade (NA)"],
+        ["X4 + COM", "Altera frequência X e Y"],
+        ["FIC + Potenciômetro","Terminal central pot."], 
+        ["+10V + Potenciômetro","Terminal positivo pot."],
+        ["GND + Potenciômetro", "Terminal negativo pot."]
+        
+      ],
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+      "observacoes": [
+        "Ao manter o borne X1 fechado, o inversor aciona o motor.",
+        "A rotação é ajustada por um potenciômetro externo do inversor.",
+        "Para desligar, é necessário abrir o borne X1.",
+        "Acionando o X4, a referência da velocidade é alterada do Potenciômetro para o modo Multispeed.",
+        "Sem acionar o X3, 1ª velocidade é controlada pelo parâmetro PC.00.",
+        "Acionando o X3, a 2ª velocidade passa a ser controlada pelo parâmetro PC.01."
+
+      ]
+    },
+
+    " - Troca Velocidade (X = Multispeed / Y = Potenciometro ou 0-10V": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if30_X_Y_Multispeed_Potenciometro.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.03", "6"],
+        ["P0.04", "3"],
+        ["P0.07", "2"],
+        ["P4.03", "18"],
+        ["P4.02", "12"],
+        ["PC.00", "1ª Velocidade [%]"],
+        ["PC.01", "2ª Velocidade [%]"]
+        
+      ],
+
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM", "Reversão (NA)"],
+        ["X3 + COM"," 2ª Velocidade (NA)"],
+        ["X4 + COM", "Altera Frequência X e Y"],
+        ["FIC + Potenciômetro","Terminal central pot."], 
+        ["+10V + Potenciômetro","Terminal positivo pot."],
+        ["GND + Potenciômetro", "Terminal negativo pot."]
+        
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+      "observacoes": [
+        "Ao manter o borne X1 fechado, o inversor aciona o motor.",
+        "Para desligar, é necessário abrir o borne X1.",
+        "Sem acionar o X3, 1ª velocidade é controlada pelo parâmetro PC.00.",
+        "Acionando o X3, a 2ª velocidade passa a ser controlada pelo parâmetro PC.01.",
+        "Acionando o X4, a referência da velocidade é alterada do modo Multispeed para o Potenciômetro.",
+        "A rotação é ajustada por um potenciômetro externo do inversor."
+
+      ]
+    },
+
+    " - Últimos Alarme Inversor": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",  
+
+      "parametros": [
+        ["P9.14", "1º Alarme"],
+        ["P9.15", "2º Alarme"],
+        ["P9.16", "3º Alarme"]
+      ],
+
+      "ligacoes": [
+      ],
+
+      "motor": [
+      ],
+
+      "observacoes": [
+        "0: Sem falha",
+        "1: Reservado",
+        "2: Sobrecorrente durante a aceleração",
+        "3: Sobrecorrente durante a desaceleração",
+        "5: Sobretensão durante a aceleração",
+        "6: Sobretensão durante a desaceleração",
+        "7: Sobretensão em velocidade constante",
+        "8: Resistor de pré carga sobrecarregado",
+        "9: Subtensão",
+        "10: Sobrecarga no inversor",
+        "11: Sobrecarga no motor",
+        "12: Perda de fase na entrada",
+        "13: Perda de fase na saída",
+        "14: Superaquecimento do módulo",
+        "15: Falha externa",
+        "16: Falha de comunicação",
+        "17: Falha no contator",
+        "18: Falha na detecção de corrente",
+        "19: Falha no auto ajuste",
+        "20: Falha na placa de encoder",
+        "21: Falha na leitura/escrita de parâmetros",
+        "22: Falha de hardware no inversor",
+        "23: Curto circuito à terra",
+        "24: Reservado",
+        "25: Reservado",
+        "26:Tempo acumulativo alcançado",
+        "27: Reservado",
+        "28: Reservado",
+        "29: Tempo energizado acumulativo alcançado",
+        "30: Carga zero",
+        "31: Perda de retorno do PID (em operação)",
+        "40: Tempo de limite rápido excedido",
+        "41: Troca de motor durante o funcionamento",
+        "42: Alto desvio de velocidade",
+        "43: Excesso de velocidade no motor",
+        "44: Sobrecorrente em velocidade constante",
+        "45: Reservado"
+      ]
+  },
+
+    " - UP / DOWN": {
+      "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if30-Up_Down.pdf",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P0.02", "1"],
+        ["P0.03", "1"],
+        ["P0.08", "Valor Frequência inicial [Hz]"],
+        ["P4.00", "1"],
+        ["P4.01", "2"],
+        ["P4.02", "6"],
+        ["P4.03", "7"],
+        ["P4.12", "Hz por pulso"]
+
+      ],
+
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM", "Reversão (NA)"],
+        ["X3 + COM", "+ Velocidade (NA)"],
+        ["X4 + COM", "- Velocidade (NA)"]
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+      
+      "observacoes": [
+        "Ao fechar o borne X1, o inversor aciona o motor.",
+        "Para desligar, é necessário abrir o borne X1.",
+        "Acionando o borne X3, o inversor recebe comando de aumento de frequência.",
+        "Acionando o borne X4, o inversor recebe comando de redução de frequência.",
+        "O parâmetro P4.12 define o valor do pulso de frequência."
+
+      ]
+    }
+  }
+}
