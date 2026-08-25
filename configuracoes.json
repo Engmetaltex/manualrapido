@@ -1214,7 +1214,7 @@
         ["P5.02", "3"],
         ["P5.11", "2"],
         ["P5.13", "0.00"],
-        ["P5.14", "0.00"],
+        ["P5.14", "100.00"],
         ["P5.15", "10.0"],
         ["P5.16", "0.0"]
       ],
@@ -1308,6 +1308,8 @@
         ["FWD + GND", "Liga (NA)"],
         ["REV + GND", "Reversão (NA)"],
         ["S1 + GND", "Desliga (NF)"],
+        ["S2 + GND", "Jov Avanço (NA)"],
+        ["S3 + GND", "Jov Reverso (NA)"],
         ["FIV + Potenciômetro","Terminal central pot."], 
         ["+10V + Potenciômetro","Terminal positivo pot."],
         ["GND + Potenciômetro", "Terminal negativo pot."]        
