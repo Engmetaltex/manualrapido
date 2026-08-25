@@ -46,7 +46,7 @@ CONFIGURACOES = carregar_configuracoes()
 
 
 def main(page: ft.Page):
-    page.title = "Aplicações IF"
+    page.title = "Manual Rapido"
     page.theme_mode = ft.ThemeMode.LIGHT
     page.window_width = 400
     page.window_height = 700
