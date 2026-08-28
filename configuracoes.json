@@ -942,7 +942,7 @@
       "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
 
       "parametros": [
-        ["P000", "4"]      
+        ["P000", "4 (Velocidade de rotação do motor – RPM)"]      
       ],
 
       "ligacoes": [
