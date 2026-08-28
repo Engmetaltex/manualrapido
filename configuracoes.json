@@ -750,6 +750,7 @@
       ]
     },
 
+    
     " - Reset de Fábrica": {
       "link": "",
       "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
@@ -933,6 +934,34 @@
         "Botão + Velocidade NA, ligado no borne S1",
         "Botão - Velocidade NA, ligado no borne S2",
         "P330 Valor em Hz de cada Pulso"
+      ]
+    },
+
+    " - Visualização da velocidade em RPM ": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+
+      "parametros": [
+        ["P000", "4"]      
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA)"]
+      ],
+
+      "motor": [
+        ["P209", "[V] Tensão nominal"],
+        ["P210", "[A] Corrente nominal"],
+        ["P212", "[RPM] Velocidade nominal"],
+        ["P213", "Numero de polos"],
+        ["P215", "[Hz] Frequência nominal"]
+      ],
+
+      "observacoes": [
+        "Após colocar o Parâmetro P000 em 4, segurar a tecla ENTER até aparecer P001",
+        "Com P001 no display, apertar a tecla PRG/RESET uma vez até aparecer o valor de frequência, como F50.0, por exemplo.",
+        "Com o valor de frequência no display, apertar a tecla ENTER 4 vezes até aparecer 0, indicando que a velocidade será visualizada em RPM e não mais em Hz."
       ]
     }
 
@@ -2050,7 +2079,42 @@
         "O parâmetro P5.12 define o valor do pulso de frequência."
 
       ]
+    },
+
+    " - Visualização da velocidade em RPM": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P7.03", "H.481F (Habilita visualização da velocidade da carga em RPM)"],
+        ["P7.06", "Dividir o valor da rotação nominal do motor por 600 - Inserir o resultado da conta em P7.06"]
+   
+      ],
+
+      "ligacoes": [
+        ["FWD + GND", "Liga (NA)"],
+        ["REV + GND", "Reversão (NA) (Opcional)"]
+  
+      ],
+
+      "motor": [
+        ["P2.01", "[KW] - Potência nominal"],
+        ["P2.02", "[V] - Tensão nominal"],
+        ["P2.03", "[A] - Corrente nominal"],
+        ["P2.04", "[Hz] - Frequência nominal"],
+        ["P2.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+
+      "observacoes": [ 
+        "Exemplo: Motor 04 Pólos = 1750 / 600 = 2,916",
+        "P7.06 = 2,916",
+        "Após inserir o respectivo valor no parâmetro P7.06, apertar a tecla PRG 02 vezes, até aparecer o valor de frequência no display.",
+        "Ao ligar o motor, vai aparecer o valor de frequência.",
+        "Após isso, acionar a SETA para esquerda até que o valor em RPM apareça."
+
+      ]
     }
+
   },
 
   "IF30": {
@@ -3231,6 +3295,46 @@
         "O parâmetro P4.12 define o valor do pulso de frequência."
 
       ]
+    },
+
+    " - Visualização da velocidade em RPM": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P7.03", "1"],
+        ["P7.06", "Dividir o valor da rotação nominal do motor por 600 - Inserir o resultado da conta em P7.06"]
+
+      ],
+
+      "ligacoes": [
+        ["X1 + COM", "Liga (NA)"],
+        ["X2 + COM", "Reversão (NA)"]
+
+      ],
+
+      "motor": [
+        ["P1.01", "[KW] - Potência nominal"],
+        ["P1.02", "[V] - Tensão nominal"],
+        ["P1.03", "[A] - Corrente nominal"],
+        ["P1.04", "[Hz] - Frequência nominal"],
+        ["P1.05", "[RPM] - Velocidade de rotação nominal"]
+      ],
+      
+      "observacoes": [
+        "Exemplo: Motor 04 Pólos = 1750 / 600 = 2,916.",
+        "P7.06 = 2,916.",
+        "Após inserir o respectivo valor no parâmetro P7.06, apertar a tecla PRG 02 vezes, até aparecer o valor de frequência no display.",
+        "Ao ligar o motor, vai aparecer o valor de frequência.",
+        "Após isso, acionar a SETA para direita até que o valor em RPM apareça."
+
+      ]
     }
+
+
+
+
+
+
   }
 }
