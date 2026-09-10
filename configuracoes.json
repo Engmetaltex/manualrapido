@@ -405,9 +405,9 @@
       "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532 ",
       "parametros": [
         ["P102", "1"],
-        ["P203", "Hz Frequência inicial de partida"],
-        ["P206", "% Corrente de operação freio DC partida"],
-        ["P207", "s Tempo de operação freio DC partida"]
+        ["P203", "Hz Frequência inicial de parada"],
+        ["P206", "% Corrente de operação freio DC parada"],
+        ["P207", "s Tempo de operação freio DC parada"]
       ],
 
       "ligacoes": [
@@ -699,7 +699,7 @@
       "ligacoes": [
         ["FWD + GND", "Liga"],
         ["REV + GND", "Reversão"],
-        ["AVI + GND", "Chave seletora para baixo 0-10V ou Chave seletora para baixo 4-20mA "]
+        ["AVI + GND", "Chave seletora para cima 0-10V ou Chave seletora para baixo 4-20mA "]
       ],
 
       "motor": [
@@ -770,6 +770,31 @@
         "Para resetar o inversor no padrão de fábrica, altere P117 = 8"
       ]
   },
+
+    " - Reinício automático após falhas": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/m_if10.pdf?v=10459772782930306532",
+
+      "parametros": [
+        ["P420", "0 a 20 (número máximo de tentativas de reinício)"],
+        ["P421", "0.1 A 100 [s] (Intervalo de tempo entre as tentativas de reinício automático)"]
+        
+      ],
+
+      "ligacoes": [
+      ],
+
+      "motor": [
+      ],
+
+      "observacoes": [
+        "Quando ˈP420ˈ for diferente de zero, após a ocorrência de um alarme, o inversor reiniciará automaticamente, após o período de tempo definido em ˈP421",
+        "Após a inicialização, se nenhum alarme ocorrer dentro de 60 segundos, o inversor reinicializa ˈP420ˈ automaticamente.",
+        "Se o alarme ocorrer novamente dentro de 60 segundos, o inversor registra o número de tentativas, até atingir o valor definido em ˈP420ˈ, quando o inversor bloqueia a reinicialização automática.",
+        "Ao ativar o reinício automático, certifique-se de que a partida inesperada do motor não represente riscos de acidentes para os operadores ou danos mecânicos ao equipamento."
+      ]
+  },
+
 
     " - Troca Velocidade (X = Potenciometro ou 0-10V / Y = Multispeed)": {
       "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if10_X_Potenciometro_Y_Multispeed.pdf",
@@ -1897,6 +1922,29 @@
         "Restauração padrão: Retorna todos os parâmetros aos valores originais de fábrica, preservando as configurações do motor e dados acumulativos."
       ]
     },
+
+    " - Reinício automático após falhas": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/IF20_Manual_Portugues-rev16.pdf?v=5305153846828326019",
+
+      "parametros": [
+        ["P9.09", "0 a 20 (Número de tentativas de Auto Reset)"],
+        ["P9.11", "0.1 A 100 [s] (Intervalo de tempo do Auto Reset)"]
+        
+      ],
+
+      "ligacoes": [
+      ],
+      "motor": [
+      ],
+      "observacoes": [
+        "Quando ˈP9.09ˈ for diferente de zero, após a ocorrência de um alarme, o inversor reiniciará automaticamente, após o período de tempo definido em ˈP9.11ˈ.",
+        "Após a inicialização, se nenhum alarme ocorrer dentro de 60 segundos, o inversor reinicializa ˈP9.09 automaticamente.",
+        "Se o alarme ocorrer novamente dentro de 60 segundos, o inversor registra o número de tentativas, até atingir o valor definido em ˈP9.09ˈ, quando o inversor bloqueia a reinicialização automática.",
+        "Ao ativar o reinício automático, certifique-se de que a partida inesperada do motor não represente riscos de acidentes para os operadores ou danos mecânicos ao equipamento."
+      ]
+    },
+
 
     " - Troca Velocidade X Potenciômetro ou 0-10V, Y Multispeed": {
       "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if20_X_Potenciometro_Y_Multispeed.pdf",
@@ -3111,6 +3159,26 @@
       ]
     },
 
+    " - Reinício automático após falhas": {
+      "link": "",
+      "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
+
+      "parametros": [
+        ["P9.09", "0 a 20 (Número de tentativas de Auto Reset)"],
+        ["P9.11", "0.1 A 100 [s] (Intervalo de tempo do Auto Reset)"]
+      ],
+      "ligacoes": [
+      ],
+      "observacoes": [
+        "Quando ˈP9.09ˈ for diferente de zero, após a ocorrência de um alarme, o inversor reiniciará automaticamente, após o período de tempo definido em ˈP9.11ˈ.",
+        "Após a inicialização, se nenhum alarme ocorrer dentro de 60 segundos, o inversor reinicializa ˈP9.09ˈ automaticamente.",
+        "Se o alarme ocorrer novamente dentro de 60 segundos, o inversor registra o número de tentativas, até atingir o valor definido em ˈP9.09ˈ, quando o inversor bloqueia a reinicialização automática.",
+        "Como o IF30 possui entrada de segurança Safe Torque Off (STO), falhas ligadas ao circuito de segurança não são limpas pelo reinício automático, exigindo verificação física.",
+        "Ao ativar o reinício automático, certifique-se de que a partida inesperada do motor não represente riscos, de acidentes para os operadores ou danos mecânicos ao equipamento."
+      ]
+    },
+
+    
     " - Troca Velocidade (X = Potenciometro ou 0-10V / Y = Multispeed)": {
       "link": "https://mkt.metaltex.com.br/manualrapidopdfs/if30_X_Potenciometro_Y_Multispeed.pdf",
       "manual": "https://metaltex.com.br/cdn/shop/files/Manual_IF30.pdf?v=6866441313632078607",
