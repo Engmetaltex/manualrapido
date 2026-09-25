@@ -366,7 +366,7 @@ def main(page: ft.Page):
                 content=ft.Row(
                     [
                         ft.Text(
-                            "Ferramenta Oficial Manual Rapido © 2026 | v1.0 | Desenvolvido por Joelson Souza",
+                            "Ferramenta Metaltex © 2026 | v1.0 | Desenvolvido por Joelson Souza",
                             color=ft.Colors.WHITE,
                             size=9,
                             text_align=ft.TextAlign.CENTER,
